@@ -1,0 +1,93 @@
+NAME
+    _LSH
+
+FILE
+    /home/peter/Desktop/FastLSH-Demo/FastLSH-Python/_LSH.so
+
+FUNCTIONS
+    LSH_clear(...)
+    
+    LSH_clearCandidateSet(...)
+    
+    LSH_clearCollisionMatrix(...)
+    
+    LSH_clearHashMatrix(...)
+    
+    LSH_getCandidateSet(...)
+    
+    LSH_getCollisionMatrix(...)
+    
+    LSH_getHashMatrixN(...)
+    
+    LSH_getHashMatrixQ(...)
+    
+    LSH_getSetN(...)
+    
+    LSH_getSetQ(...)
+    
+    LSH_loadSetN(...)
+    
+    LSH_loadSetQ(...)
+    
+    LSH_reportStatus(...)
+    
+    LSH_saveCandidateSet(...)
+    
+    LSH_setComputeMode(...)
+    
+    LSH_setDefault(...)
+    
+    LSH_setSetN(...)
+    
+    LSH_setSetQ(...)
+    
+    LSH_setThreadMode(...)
+    
+    LSH_setUseHdfs(...)
+    
+    LSH_swigregister(...)
+    
+    SWIG_PyInstanceMethod_New(...)
+
+    SwigPyIterator___add__(...)
+    
+    SwigPyIterator___eq__(...)
+    
+    SwigPyIterator___iadd__(...)
+    
+    SwigPyIterator___isub__(...)
+    
+    SwigPyIterator___ne__(...)
+    
+    SwigPyIterator___next__(...)
+    
+    SwigPyIterator___sub__(...)
+    
+    SwigPyIterator_advance(...)
+    
+    SwigPyIterator_copy(...)
+    
+    SwigPyIterator_decr(...)
+    
+    SwigPyIterator_distance(...)
+    
+    SwigPyIterator_equal(...)
+    
+    SwigPyIterator_incr(...)
+    
+    SwigPyIterator_next(...)
+    
+    SwigPyIterator_previous(...)
+    
+    SwigPyIterator_swigregister(...)
+    
+    SwigPyIterator_value(...)
+    
+    delete_LSH(...)
+    
+    delete_SwigPyIterator(...)
+    
+    new_LSH(...)
+
+
+
