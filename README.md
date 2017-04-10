@@ -1,4 +1,4 @@
-# FastLSH-Lib
+# FastLSH-Python
 Python warpper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
 
 ## Requirement 
