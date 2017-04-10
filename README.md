@@ -1,14 +1,9 @@
 # FastLSH-Lib
-Python wrapper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
+Python warpper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
 
 ## Requirement 
-* Hadoop >= 2.7.1  
-    find installation guide [here](http://hadoop.apache.org/#Download+Hadoop)
-* Memcached >= 1.4.34  
-    `sudo apt-get update`  
-    `sudo apt-get install mysql-server php5-mysql php5 php5-memcached memcached`  
-* Redis >= 3.2  
-    find installation guide [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
+* SWIG >= 2.0 (>=3.0 recommanded)  
+    find installation guide [here](http://www.swig.org/download.html)
 * OpenMP >= 4.5  
     OpenMP is defaultly in major compilers, you can find related information [here](http://www.openmp.org/resources/openmp-compilers/)
     
@@ -16,13 +11,29 @@ Python wrapper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
     cmake .  
     make
 ## To Use
-After build, you can find the `libFastLSH.a` in your directory.  
-Move the `./include` directory and `libFastLSH.a` into your project and link them in your source code and makefile.  
-You can find an example project in `./example` directory
+After build, you can find the `_FastLSH.so` in your directory.  
+Move `_FastLSH.so` to your project   
+You can find an example script in `./example/Demo.py` 
 
 ## Example
-
-## Attention
+    An example project is in `./example/Demo.py`
+    
+        import _LSH as lsh
+        l = lsh.new_LSH(1000,1000,57,200,1,1.2,100)
+        
+        print lsh.LSH_reportStatus(l)
+        
+        lsh.LSH_loadSetN(l,"dataset1000NoIndex.csv",0)
+        lsh.LSH_loadSetQ(l,"dataset1000NoIndex.csv",0)
+        
+        lsh.LSH_setThreadMode(l,1)
+        lsh.LSH_setComputeMode(l,1)
+        
+        print lsh.LSH_reportStatus(l)
+        
+        result = lsh.LSH_getCandidateSet(l)
+        
+        len(result)
 
 ## Documentation
 
