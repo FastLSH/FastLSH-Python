@@ -1,3 +1,0 @@
-/home/peter/FYP/FastLSH-Python/CMakeFiles/edit_cache.dir
-/home/peter/FYP/FastLSH-Python/CMakeFiles/rebuild_cache.dir
-/home/peter/FYP/FastLSH-Python/CMakeFiles/_FastLSH.dir
