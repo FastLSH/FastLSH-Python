@@ -1,4 +1,4 @@
-%module LSH
+%module FastLSH
 %{
 #include "include/LSH.h"
 %}

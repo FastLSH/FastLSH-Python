@@ -95,24 +95,24 @@ private:
 
 };
 
-/**
- * FileLoader which loads file from Hadoop File System (HDFS) derived from FileLoader
- */
-class HdfsLoader: public FileLoader {
-    /**
-     * print the loadMode - HDFS
-     */
-    virtual void printLoadMode();
-private:
-    size_t fileSize; // fileSize for HDFS loader reference
-
-    /**
-     * load file into stringstream
-     * @param filePath
-     */
-    virtual void loadToSS(const char* filePath);
-
-};
+///**
+// * FileLoader which loads file from Hadoop File System (HDFS) derived from FileLoader
+// */
+//class HdfsLoader: public FileLoader {
+//    /**
+//     * print the loadMode - HDFS
+//     */
+//    virtual void printLoadMode();
+//private:
+//    size_t fileSize; // fileSize for HDFS loader reference
+//
+//    /**
+//     * load file into stringstream
+//     * @param filePath
+//     */
+//    virtual void loadToSS(const char* filePath);
+//
+//};
 
 
 #endif //FASTLSH_FILELOADER_H

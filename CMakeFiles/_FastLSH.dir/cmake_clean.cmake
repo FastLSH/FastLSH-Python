@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "LSHPYTHON_wrap.cxx"
-  "LSH.py"
+  "FastLSH.py"
   "LSHPYTHON_wrap.cxx"
-  "LSH.py"
+  "FastLSH.py"
   "CMakeFiles/_FastLSH.dir/LSHPYTHON_wrap.cxx.o"
   "CMakeFiles/_FastLSH.dir/src/LSH.cpp.o"
   "CMakeFiles/_FastLSH.dir/src/Normalizer.cpp.o"

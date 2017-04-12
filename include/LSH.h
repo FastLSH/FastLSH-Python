@@ -85,32 +85,32 @@ class LSH{
      * @param port the port number of the memcached service
      * @param runId the runId of the stored hash N
      */
-    void readHashNFromMemcached(const char *server, unsigned short port, std::string runId);
-
-    /**
-     * read and parse stored hash N from Redis
-     * @param server the server ip address
-     * @param port the port number of the Redis service
-     * @param runId the runId of the stored hash N
-     */
-    int readHashNFromRedis(const char *server, unsigned short port, std::string srunId);
-
-    /**
-     * save hash N to memcached
-     * @param server the memcached server IP
-     * @param port the memcached port number
-     * @param exp how long it gonna stay in memory (0 for forever)
-     * @return 0-not success 1-success
-     */
-    int saveHashNToMemcached(const char *server, unsigned short port, time_t exp);
-
-    /**
-     * save hash N to Redis
-     * @param server the Redis server IP
-     * @param port the Redis port number
-     * @return 0-not success 1-success
-     */
-    int saveHashNToRedis(const char *server, unsigned short port);
+//    void readHashNFromMemcached(const char *server, unsigned short port, std::string runId);
+//
+//    /**
+//     * read and parse stored hash N from Redis
+//     * @param server the server ip address
+//     * @param port the port number of the Redis service
+//     * @param runId the runId of the stored hash N
+//     */
+//    int readHashNFromRedis(const char *server, unsigned short port, std::string srunId);
+//
+//    /**
+//     * save hash N to memcached
+//     * @param server the memcached server IP
+//     * @param port the memcached port number
+//     * @param exp how long it gonna stay in memory (0 for forever)
+//     * @return 0-not success 1-success
+//     */
+//    int saveHashNToMemcached(const char *server, unsigned short port, time_t exp);
+//
+//    /**
+//     * save hash N to Redis
+//     * @param server the Redis server IP
+//     * @param port the Redis port number
+//     * @return 0-not success 1-success
+//     */
+//    int saveHashNToRedis(const char *server, unsigned short port);
 
     /**
      * delete the hashMatrixes, release the memory

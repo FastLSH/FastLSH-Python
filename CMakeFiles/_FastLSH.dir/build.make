@@ -62,8 +62,8 @@ LSHPYTHON_wrap.cxx: LSH.i
 	/usr/bin/cmake -E make_directory /home/peter/FYP/FastLSH-Python
 	/usr/bin/swig3.0 -python -outdir /home/peter/FYP/FastLSH-Python -c++ -I/usr/include/python2.7 -I/home/peter/FYP/FastLSH-Python -o /home/peter/FYP/FastLSH-Python/LSHPYTHON_wrap.cxx /home/peter/FYP/FastLSH-Python/LSH.i
 
-LSH.py: LSHPYTHON_wrap.cxx
-	@$(CMAKE_COMMAND) -E touch_nocreate LSH.py
+FastLSH.py: LSHPYTHON_wrap.cxx
+	@$(CMAKE_COMMAND) -E touch_nocreate FastLSH.py
 
 CMakeFiles/_FastLSH.dir/LSHPYTHON_wrap.cxx.o: CMakeFiles/_FastLSH.dir/flags.make
 CMakeFiles/_FastLSH.dir/LSHPYTHON_wrap.cxx.o: LSHPYTHON_wrap.cxx
@@ -360,7 +360,7 @@ CMakeFiles/_FastLSH.dir/clean:
 .PHONY : CMakeFiles/_FastLSH.dir/clean
 
 CMakeFiles/_FastLSH.dir/depend: LSHPYTHON_wrap.cxx
-CMakeFiles/_FastLSH.dir/depend: LSH.py
+CMakeFiles/_FastLSH.dir/depend: FastLSH.py
 	cd /home/peter/FYP/FastLSH-Python && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/FYP/FastLSH-Python /home/peter/FYP/FastLSH-Python /home/peter/FYP/FastLSH-Python /home/peter/FYP/FastLSH-Python /home/peter/FYP/FastLSH-Python/CMakeFiles/_FastLSH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_FastLSH.dir/depend
 

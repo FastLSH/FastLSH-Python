@@ -150,8 +150,8 @@ vector2D LSH::getCollisionMatrix() {
         // if hashMatrixes haven't been generated then compute the hashMatrix
         if(hashMatrixN.size()==0||hashMatrixQ.size()==0) {
             // normalize before do the computation
-            setQ =normalize(setQ);
-            setN =normalize(setN);
+//            setQ =normalize(setQ);
+//            setN =normalize(setN);
             hashMatrixN = theGenerator->generateHash(setN,ph.N);
             hashMatrixQ = theGenerator->generateHash(setQ,ph.Q);
         }
@@ -171,8 +171,8 @@ vector2D LSH::getCandidateSet(){
         //if hash matrix not calculated
         if(hashMatrixN.size()==0||hashMatrixQ.size()==0) {
             // normalize before do the computation
-            setQ =normalize(setQ);
-            setN =normalize(setN);
+//            setQ =normalize(setQ);
+//            setN =normalize(setN);
             hashMatrixN = theGenerator->generateHash(setN,ph.N);
             hashMatrixQ = theGenerator->generateHash(setQ,ph.Q);
         }
@@ -229,9 +229,9 @@ bool LSH::setDefault(){
 
 bool LSH::setUseHdfs(bool useHdfs){
     delete theFileLoader;
-    if(useHdfs)
-        theFileLoader = new HdfsLoader();
-    else
+//    if(useHdfs)
+//        theFileLoader = new HdfsLoader();
+//    else
         theFileLoader = new LfsLoader();
 }
 
