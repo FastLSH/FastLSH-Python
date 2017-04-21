@@ -11,29 +11,32 @@ Python warpper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
     cmake .  
     make
 ## To Use
-After build, you can find the `_FastLSH.so` in your directory.  
-Move `_FastLSH.so` to your project   
+After build, you can find the `_FastLSH.so` and `FastLSH.py` in your directory.  
+Move `_FastLSH.so` and `FastLSH.py` to your project   
 You can find an example script in `./example/Demo.py` 
 
 ## Example
    An example project is in `./example/Demo.py`
     
         import FastLSH as lsh
-        l = lsh.new_LSH(1000,1000,57,200,1,1.2,100)
-        
-        print lsh.LSH_reportStatus(l)
-        
-        lsh.LSH_loadSetN(l,"dataset1000NoIndex.csv",0)
-        lsh.LSH_loadSetQ(l,"dataset1000NoIndex.csv",0)
-        
-        lsh.LSH_setThreadMode(l,1)
-        lsh.LSH_setComputeMode(l,1)
-        
-        print lsh.LSH_reportStatus(l)
-        
-        result = lsh.LSH_getCandidateSet(l)
-        
-        len(result)
+        l = lsh.LSH(1000,1000,57,200,1,1.2,100)
+
+        print l.reportStatus()
+
+        l.loadSetN("dataset1000NoIndex.csv",0)
+        l.loadSetQ("dataset1000NoIndex.csv",0)
+
+        l.setThreadMode(1)
+        l.setComputeMode(1)
+
+        print l.reportStatus()
+
+        result = l.getCandidateSet()
+
+        print l.reportStatus()
+
+        print len(result)
+
 
 ## Documentation
 
