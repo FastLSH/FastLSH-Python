@@ -41,5 +41,8 @@ You can find an example script in `./example/Demo.py`
 ## Documentation
 You can find a simple documentaion at `./doc/html/index.html`
 
+## TODO
+Add `setup.py`, make it availble in PyPi
+
 
 
