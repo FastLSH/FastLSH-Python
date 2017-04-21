@@ -1,140 +1,140 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="FastLSH" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/peter/FYP/FastLSH-Python" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/peter/FYP/FastLSH-Python" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/peter/FYP/FastLSH-Python" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="_FastLSH">
-         <Option output="/home/peter/FYP/FastLSH-Python/_FastLSH.so" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/peter/FYP/FastLSH-Python" />
-         <Option object_output="./" />
-         <Option type="3" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/peter/FYP/FastLSH-Python" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/python2.7" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 _FastLSH" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="_FastLSH/fast">
-         <Option output="/home/peter/FYP/FastLSH-Python/_FastLSH.so" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/peter/FYP/FastLSH-Python" />
-         <Option object_output="./" />
-         <Option type="3" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/peter/FYP/FastLSH-Python" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/python2.7" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 _FastLSH/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/LSH.i">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/include/LSH.h">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/Computer.h">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/FileLoader.h">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/Generator.h">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/ParameterHolder.h">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/OpenMPComputer.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/PthreadComputer.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/SingleThreadComputer.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/StdThreadComputer.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/FileLoader/FileLoader.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/FileLoader/LfsLoader.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Generator.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/LSH.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/src/Normalizer.cpp">
-         <Option target="_FastLSH"/>
-      </Unit>
-      <Unit filename="/home/peter/FYP/FastLSH-Python/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FastLSH"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/peter/FYP/FastLSH-Python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/peter/FYP/FastLSH-Python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/peter/FYP/FastLSH-Python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_FastLSH">
+				<Option output="/home/peter/FYP/FastLSH-Python/_FastLSH.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/peter/FYP/FastLSH-Python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/peter/FYP/FastLSH-Python"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 _FastLSH"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_FastLSH/fast">
+				<Option output="/home/peter/FYP/FastLSH-Python/_FastLSH.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/peter/FYP/FastLSH-Python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/peter/FYP/FastLSH-Python"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 _FastLSH/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/peter/FYP/FastLSH-Python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/LSH.i">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/include/LSH.h">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/Computer.h">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/FileLoader.h">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/Generator.h">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/include/otherClasses/ParameterHolder.h">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/OpenMPComputer.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/PthreadComputer.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/SingleThreadComputer.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Computer/StdThreadComputer.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/FileLoader/FileLoader.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/FileLoader/LfsLoader.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Generator.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/LSH.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/src/Normalizer.cpp">
+			<Option target="_FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-Python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
 </CodeBlocks_project_file>
