@@ -1,16 +1,18 @@
-import _LSH as lsh
-l = lsh.new_LSH(1000,1000,57,200,1,1.2,100)
+import FastLSH as lsh
+l = lsh.LSH(1000,1000,57,200,1,1.2,100)
 
-print lsh.LSH_reportStatus(l)
+print l.reportStatus()
 
-lsh.LSH_loadSetN(l,"dataset1000NoIndex.csv",0)
-lsh.LSH_loadSetQ(l,"dataset1000NoIndex.csv",0)
+l.loadSetN("dataset1000NoIndex.csv",0)
+l.loadSetQ("dataset1000NoIndex.csv",0)
 
-lsh.LSH_setThreadMode(l,1)
-lsh.LSH_setComputeMode(l,1)
+l.setThreadMode(1)
+l.setComputeMode(1)
 
-print lsh.LSH_reportStatus(l)
+print l.reportStatus()
 
-result = lsh.LSH_getCandidateSet(l)
+result = l.getCandidateSet()
 
-len(result)
+print l.reportStatus()
+
+print len(result)
