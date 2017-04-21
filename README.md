@@ -16,9 +16,9 @@ Move `_FastLSH.so` to your project
 You can find an example script in `./example/Demo.py` 
 
 ## Example
-    An example project is in `./example/Demo.py`
+   An example project is in `./example/Demo.py`
     
-        import _LSH as lsh
+        import FastLSH as lsh
         l = lsh.new_LSH(1000,1000,57,200,1,1.2,100)
         
         print lsh.LSH_reportStatus(l)
