@@ -1,3 +1,5 @@
+![FastLSH_LOGO](https://cloud.githubusercontent.com/assets/11495951/26155097/96bce0fe-3b44-11e7-8fec-ff6667e3c72c.png)  
+
 # FastLSH-Python
 Python warpper version of FastLSH. It have been tested on Ubuntu 14.04, 16.04
 
