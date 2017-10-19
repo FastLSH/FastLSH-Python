@@ -28,6 +28,7 @@ limitations under the License.
 #include <thread>
 #include <algorithm>
 #include <iostream>
+#include <functional>
 #include "../../include/otherClasses/Computer.h"
 
 vector2D ComputerStdThread::computeHash(vector2D dataset, size_t pointNum){
