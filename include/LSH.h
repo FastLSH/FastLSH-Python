@@ -35,8 +35,8 @@ limitations under the License.
 #define FASTLSH_LSH_H
 
 //typedef to make code less verbose
-typedef std::vector<std::vector<std::vector<double>>> vector3D;
-typedef std::vector<std::vector<double>> vector2D;
+typedef std::vector<std::vector<std::vector<double> > > vector3D;
+typedef std::vector<std::vector<double> > vector2D;
 typedef std::vector<double> vector1D;
 
 class LSH{
